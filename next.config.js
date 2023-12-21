@@ -11,6 +11,9 @@ const nextConfig = withPWA({
     remotePatterns: [
       {
         hostname: "westonacademy.education"
+      },
+      {
+        hostname: "scontent.faep28-1.fna.fbcdn.net"
       }
     ]
   }
