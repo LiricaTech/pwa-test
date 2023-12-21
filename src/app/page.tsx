@@ -2,11 +2,14 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
+
+const pathname = process.env.NEXT_PUBLIC_VERCEL_URL
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          {pathname}
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
