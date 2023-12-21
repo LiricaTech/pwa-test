@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 const pathname = process.env.NEXT_PUBLIC_VERCEL_URL
 
-const appData = whiteLabel.find((app) => app.url === pathname)
+const appData = whiteLabel.find((app) => pathname?.includes(app.name))
 
 
 

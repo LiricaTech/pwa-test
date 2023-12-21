@@ -9,7 +9,7 @@ export const whiteLabel = [
   },
   {
     url: "weston-pwa-test-f7tyny8ar-liricas-projects.vercel.app",
-    name: "Weston",
+    name: "weston",
     manifest: "/manifests/weston.json",
     title: "Weston",
     applicationName: "Weston",

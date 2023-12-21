@@ -9,7 +9,7 @@ const pathname = process.env.NEXT_PUBLIC_VERCEL_URL
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          {pathname}
+          {pathname} - 
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
