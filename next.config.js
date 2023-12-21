@@ -6,7 +6,15 @@ const withPWA = require("next-pwa")({
     // disable: process.env.NODE_ENV === "development",
 })
 
-const nextConfig = withPWA({})
+const nextConfig = withPWA({
+  images: {
+    remotePatterns: [
+      {
+        hostname: "westonacademy.education"
+      }
+    ]
+  }
+})
 
 
 module.exports = nextConfig
