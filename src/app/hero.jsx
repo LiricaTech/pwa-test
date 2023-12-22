@@ -5,7 +5,7 @@ function Hero({img = "https://westonacademy.education/assets/imgs/logo-WIA.png",
   return (
     <div style={{display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
       {title ? <h1>{title}</h1> : "Default Title"}
-      {img && <Image src={img} alt="hero" width={400} height={200} />}
+      {img && <Image src={img} alt="hero" width={300} height={200} />}
     </div>
   )
 }
